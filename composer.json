@@ -1,0 +1,23 @@
+{
+  "name": "pauljbergmann/laravel-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Paul Bergmann",
+      "email": "pauljbergmann@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Pauljbergmann\\LaravelInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
